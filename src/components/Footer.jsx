@@ -2,12 +2,6 @@
 import React from 'react';
 <link rel="stylesheet" href="../../public/style.css" />
 
-// {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-//       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-//       crossorigin="anonymous"
-//       referrerpolicy="no-referrer"
-//     /> */}
-
 function Footer() {
     return (
         <section class="footer">
@@ -84,19 +78,12 @@ function Footer() {
                 </div>
             </div>
 
-            <div class="bgcolor">
-                <div class="designed-by">
-                    <h5>Designed By</h5>
-                </div>
-                <div class="designers">
-                    <h5>Aarush Wasnik & Shreya Ghorpade</h5>
-                </div>
-                <div class="copyright">
-                    <h6>Copyright © 2023 NSS-CRCE. All Rights Reserved.</h6>
-                </div>
-                <div class="last-updated">
+            <div class="footer-end">
+                <div class="copyright-and-designers">
+                    <h4 className='copyright'>Copyright © 2023 NSS-CRCE. DESIGN & DEVELOPMENT BY <a className='designers' href='#'>NSS-CRCE WEB TEAM</a></h4>
                     <p id="last-updated">Last Updated: 7 Oct 2023</p>
                 </div>
+
             </div>
 
         </section>
