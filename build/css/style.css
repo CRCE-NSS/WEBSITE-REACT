@@ -361,14 +361,13 @@ tr:hover {
 }
 
 .footer .box-container {
-    background-color: lightblue;
     /* border: 1px solid black; */
+    background-color: lightblue;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap: 1.5rem;
     padding-top: 20px;
 }
-
 
 .footer .box-container .box h3 {
     font-size: 1.5rem;
@@ -400,8 +399,9 @@ tr:hover {
     text-transform: lowercase;
 }
 
-.box #contact {
-    margin-left: 10px;
+#contact {
+    /* border: 1px solid black; */
+    margin-right: 20px;
 }
 
 .footer .box-container .box .links:hover i {

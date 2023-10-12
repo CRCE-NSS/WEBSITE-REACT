@@ -18,14 +18,14 @@ function Navbar() {
     <header className="header">
       {/* NSS logo */}
       <a className="nss-logo" href="https://nsscrce.org/">
-        <img src="/images/nss-logo.svg" alt="NSS Logo" />
+        <img src="/images/logos/nss-logo.svg" alt="NSS Logo" />
       </a>
       {/* FRCRCE logo */}
       <a className="father-logo">
-        <img src="/images/father-logo.svg" alt="Father Logo" />
+        <img src="/images/logos/father-logo.svg" alt="Father Logo" />
       </a>
       <a className="crce-logo" href="http://frcrce.ac.in/">
-        <img src="/images/crce-logo.svg" alt="CRCE Logo" />
+        <img src="/images/logos/crce-logo.svg" alt="CRCE Logo" />
       </a>
       {/* Page title */}
       <div className="nss-title">
