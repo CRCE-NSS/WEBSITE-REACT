@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-// const apiUrl = process.env.REACT_APP_API_URL;
 const apiUrl = "/get-volunteer";
 
 function Vol_Data() {
@@ -31,13 +30,16 @@ function Vol_Data() {
       return acc;
     }, {});
 
-    const grandTotal = Object.values(eventsByCategory).reduce((total, category) => {
-      return total + category.totalHours;
+    // Sort the categories alphabetically
+    const sortedCategories = Object.keys(eventsByCategory).sort();
+
+    const grandTotal = sortedCategories.reduce((total, category) => {
+      return total + eventsByCategory[category].totalHours;
     }, 0);
 
     return (
       <div>
-        {Object.entries(eventsByCategory).map(([category, data]) => (
+        {sortedCategories.map(category => (
           <div key={category}>
             <h2>{category}</h2>
             <table border="1">
@@ -49,7 +51,7 @@ function Vol_Data() {
                 </tr>
               </thead>
               <tbody>
-                {data.events.map((event) => (
+                {eventsByCategory[category].events.map((event) => (
                   <tr key={event._id}>
                     <td>{event.eventname}</td>
                     <td>{event.date ? new Date(event.date).toLocaleDateString() : 'No Date Available'}</td>
@@ -58,14 +60,14 @@ function Vol_Data() {
                 ))}
                 <tr>
                   <td colSpan="2">Total:</td>
-                  <td>{data.totalHours}</td>
+                  <td>{eventsByCategory[category].totalHours}</td>
                 </tr>
               </tbody>
             </table>
           </div>
         ))}
         <div>
-          <table border="1" style={{marginTop:"20px"}}>
+          <table border="1" style={{ marginTop: "20px" }}>
             <tbody>
               <tr>
                 <th>Grand Total</th>
