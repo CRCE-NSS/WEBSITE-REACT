@@ -80,7 +80,7 @@ function Footer() {
 
             <div className="footer-end">
                 <div className="copyright-and-designers">
-                    <h4 className='copyright'>Copyright © 2023 NSS-CRCE. DESIGN & DEVELOPMENT BY <a className='designers' href='#'>NSS-CRCE WEB TEAM</a></h4>
+                    <h4 className='copyright'>Copyright © 2023 NSS-CRCE. DESIGN & DEVELOPMENT BY <a className='designers' href='/web_card_list'>NSS-CRCE WEB TEAM</a></h4>
                     <p id="last-updated">Last Updated: 7 Oct 2023</p>
                 </div>
 
