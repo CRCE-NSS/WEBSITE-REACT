@@ -2,8 +2,8 @@ import React from 'react';
 
 const EventCard = ({ name, date, imageSrc, instagramLink, reportLink }) => {
   return (
-    <div className="custom-card">
-      <img src={imageSrc} alt={name} />
+    <div className="event-custom-card">
+      <img src={imageSrc} alt={name} className="event-img"/>
       <div className="card-info">
         <h3>{name}</h3>
         <p>{date}</p>
@@ -16,8 +16,8 @@ const EventCard = ({ name, date, imageSrc, instagramLink, reportLink }) => {
         )}
         {reportLink && (
           <a href={reportLink} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-pdf"></i>
-          </a>
+            <i>&#128462;</i>
+          </a> 
         )}
       </div>
     </div>

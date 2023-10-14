@@ -1,0 +1,65 @@
+/* MemberCard.css */
+.event-custom-card {
+    border: 3px solid black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 530px;
+    width: 500px;
+    /* width: auto; */
+    /* overflow: hidden; */
+    transition: transform 0.2s;
+    margin-bottom: 40px ;
+    margin-top: 10px;
+  }
+  
+  .event-custom-card:hover {
+    transform: scale(1);
+  }
+  
+  .event-custom-card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .event-custom-card .event-img {
+    width: 490px;
+    height: 420px;
+
+  }
+  
+  .event-custom-card .hover-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .event-custom-card:hover .hover-content {
+    display: block;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #777;
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .social-icons a:hover {
+    color: #0077b5;
+  }  

@@ -3,73 +3,49 @@ import MemberCard from './MemberCard';
 
 const cardData = [
     {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
+        name: "Ratan Singh",
+        designation: "President",
+        imageSrc: "/images/teammembers/team-members-2023-24/ratan.jpg",
+        linkedinLink: "https://www.linkedin.com/in/ratan-singh-327b74228/",
+        instagramLink: "https://www.instagram.com/ratan.singh_21/",
+        // githubLink: "https://github.com/johndoe"
+    },
+    {
+        name: "Krishna Soni",
+        designation: "Vice-President and Head of Events",
+        imageSrc: "/images/teammembers/team-members-2023-24/krishna.jpg",
+        linkedinLink: "https://www.linkedin.com/in/krishnasoni9/",
+        instagramLink: "https://instagram.com/krishhna_9193?igshid=OGQ5ZDc2ODk2ZA==",
+    },
+    {
+        name: "Aarush Wasnik",
+        designation: "Senior Webmaster",
+        imageSrc: "/images/teammembers/team-members-2023-24/Aarush.jpg",
+        linkedinLink: "https://www.linkedin.com/in/aarush-wasnik-016120248/",
         instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
+        // githubLink: "https://github.com/johndoe"
     },
     {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
+        name: "Kush Ambekar",
+        designation: "PR Manager",
+        imageSrc: "/images/teammembers/team-members-2023-24/Kush.jpg",
+        linkedinLink: "https://www.linkedin.com/in/kush-ambekar-11a08a230/",
+        instagramLink: "https://instagram.com/_._._.kush._._._?igshid=MzRlODBiNWFlZA==",
     },
     {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
+        name: "Prathmesh Magar",
+        designation: "Head of Inventory and Equipment",
+        imageSrc: "/images/teammembers/team-members-2023-24/Prathmesh.jpg",
+        linkedinLink: "https://www.linkedin.com/in/prathmeshmagar447/",
+        instagramLink: "https://www.instagram.com/prathmesh196/",
+        // githubLink: "https://github.com/johndoe"
     },
     {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
-    },
-    {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
-    },
-    {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
-    }, {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
-    },
-    {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
-    }, {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
-    },
-    {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
-    },
+        name: "Shubham Ghadigaonkar",
+        designation: "Treasurer",
+        imageSrc: "/images/teammembers/team-members-2023-24/Shubham.jpg",
+         linkedinLink: "https://www.linkedin.com/in/janesmith",
+     },
     // Add more card data as needed
 ];
 

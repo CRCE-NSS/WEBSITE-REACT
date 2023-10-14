@@ -3,72 +3,78 @@ import MemberCard from './MemberCard';
 
 const cardData = [
     {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
+        name: "Shreya Joshi",
+        designation: "Event Co-ordinator",
+        imageSrc: "/images/teammembers/team-members-2023-24/shreya_joshi.jpg",
+        linkedinLink: "Shreya Joshi - Fr Conceicao Rodrigues College of Engineering Band Stand Bandra (West) Mumbai 400 050 - Maharashtra, India | LinkedIn",
+        instagramLink: "https://instagram.com/shreya_2_3_1?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
+        //githubLink: "https://github.com/johndoe"
     },
     {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
+        name: "Andronicus Lall",
+        designation: "Event Co-ordinator",
+        imageSrc: "/images/teammembers/team-members-2023-24/andronicus.jpg",
+        linkedinLink: "https://www.linkedin.com/in/andronicus-brandon-lall-a2648b286/",
+        instagramLink: "https://www.instagram.com/andronicus_lall/?next=%2F",
     },
     {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
+        name: "Ronak Raut",
+        designation: "Event Co-ordinator",
+        imageSrc: "/images/teammembers/team-members-2023-24/ronak.jpg",
+        linkedinLink: "https://www.linkedin.com/in/ronak-raut-817487254/",
+        instagramLink: "https://www.instagram.com/ronak__raut__2004/",
+        //githubLink: "https://github.com/johndoe"
     },
     {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
+        name: "Mansi Chache",
+        designation: "Secretary",
+        imageSrc: "/images/teammembers/team-members-2023-24/mansi.jpg",
+        linkedinLink: "https://www.linkedin.com/in/mansi-chache-421047282",
+        instagramLink: "https://instagram.com/mansi_chache?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
     },
     {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
+        name: "Armaan Shaikh",
+        designation: "Documentation Incharge",
+        imageSrc: "/images/teammembers/team-members-2023-24/armaan.jpg",
+        linkedinLink: "https://www.linkedin.com/in/armaan-shaikh-704a19260",
+        instagramLink: "https://instagram.com/armaan_2411?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+        //githubLink: "https://github.com/johndoe"
     },
     {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
+        name: "Pearl Dmonte",
+        designation: "Creative Incharge",
+        imageSrc: "/images/teammembers/team-members-2023-24/pearl.jpg",
+        linkedinLink: "https://www.linkedin.com/in/pearl-dmonte-942251286/",
+        instagramLink: "https://instagram.com/pearldmonte?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
     }, {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
+        name: "Shreya Ghorpade",
+        designation: "Junior Webmaster",
+        imageSrc: "/images/teammembers/team-members-2023-24/shreya_ghorpade.jpg",
+        linkedinLink: "https://www.linkedin.com/in/shreya-g-a697b8272/",
+        // instagramLink: "https://www.instagram.com/johndoe",
+        // githubLink: "https://github.com/johndoe"
     },
     {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
-    }, {
-        name: "John Doe",
-        designation: "Front-End Developer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/johndoe",
-        instagramLink: "https://www.instagram.com/johndoe",
-        githubLink: "https://github.com/johndoe"
+        name: "Saket Pokale",
+        designation: "IIC Co-ordinator",
+        imageSrc: "/images/teammembers/team-members-2023-24/saket.jpg",
+        linkedinLink: "https://www.linkedin.com/in/saket-pokale-2778471b0",
+        instagramLink: "https://instagram.com/_saket_8_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
     },
     {
-        name: "Jane Smith",
-        designation: "UX Designer",
-        imageSrc: "url_to_image",
-        linkedinLink: "https://www.linkedin.com/in/janesmith",
+        name: "Sarisha Machado",
+        designation: "PR and Social Media",
+        imageSrc: "/images/teammembers/team-members-2023-24/sarisha.jpg",
+        linkedinLink: "https://www.linkedin.com/in/sarisha-machado-323948286/",
+        instagramLink: "https://instagram.com/sarishamachado?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
+    },
+    {
+        name: "Niraj Nagpurkar",
+        designation: "Inventory In-charge",
+        imageSrc: "/images/teammembers/team-members-2023-24/niraj.jpg",
+        linkedinLink: "https://www.linkedin.com/in/niraj-nagpurkar-b09415284",
+        instagramLink: "https://instagram.com/niraj_2302?igshid=NTc4MTIwNjQ2YQ==",
+        //githubLink: "https://github.com/johndoe"
     },
     // Add more card data as needed
 ];
