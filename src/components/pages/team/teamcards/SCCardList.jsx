@@ -8,7 +8,6 @@ const cardData = [
         imageSrc: "/images/teammembers/team-members-2023-24/ratan.jpg",
         linkedinLink: "https://www.linkedin.com/in/ratan-singh-327b74228/",
         instagramLink: "https://www.instagram.com/ratan.singh_21/",
-        // githubLink: "https://github.com/johndoe"
     },
     {
         name: "Krishna Soni",
@@ -22,12 +21,11 @@ const cardData = [
         designation: "Senior Webmaster",
         imageSrc: "/images/teammembers/team-members-2023-24/Aarush.jpg",
         linkedinLink: "https://www.linkedin.com/in/aarush-wasnik-016120248/",
-        instagramLink: "https://www.instagram.com/johndoe",
-        // githubLink: "https://github.com/johndoe"
+        githubLink: "https://github.com/Ark2044"
     },
     {
         name: "Kush Ambekar",
-        designation: "PR Manager",
+        designation: "PR & Social Media Head",
         imageSrc: "/images/teammembers/team-members-2023-24/Kush.jpg",
         linkedinLink: "https://www.linkedin.com/in/kush-ambekar-11a08a230/",
         instagramLink: "https://instagram.com/_._._.kush._._._?igshid=MzRlODBiNWFlZA==",
@@ -38,13 +36,11 @@ const cardData = [
         imageSrc: "/images/teammembers/team-members-2023-24/Prathmesh.jpg",
         linkedinLink: "https://www.linkedin.com/in/prathmeshmagar447/",
         instagramLink: "https://www.instagram.com/prathmesh196/",
-        // githubLink: "https://github.com/johndoe"
     },
     {
         name: "Shubham Ghadigaonkar",
         designation: "Treasurer",
         imageSrc: "/images/teammembers/team-members-2023-24/Shubham.jpg",
-         linkedinLink: "https://www.linkedin.com/in/janesmith",
      },
     // Add more card data as needed
 ];

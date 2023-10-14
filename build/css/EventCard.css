@@ -1,0 +1,64 @@
+/* EventCard.css */
+.event-custom-card {
+    /* border: 3px solid black; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: auto;
+    width: 500px;
+    /* width: auto; */
+    transition: transform 0.2s;
+    margin-bottom: 40px ;
+    margin-top: 10px;
+  }
+  
+  .event-custom-card:hover {
+    transform: scale(1);
+  }
+  
+  .event-custom-card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .event-custom-card .event-img {
+    width: 500px;
+    height: auto;
+
+  }
+  
+  .event-custom-card .hover-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .event-custom-card:hover .hover-content {
+    display: block;
+  }
+  
+  .event-custom-card h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .event-custom-card p {
+    font-size: 1.5rem;
+    color: #777;
+    margin: 0;
+  }
+  
+  .event-custom-card .social-icons {
+    margin-top: 20px;
+  }
+  
+  .event-custom-card .social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 2rem;
+  }
+  
+  .event-custom-card .social-icons a:hover {
+    color: #0077b5;
+  }  

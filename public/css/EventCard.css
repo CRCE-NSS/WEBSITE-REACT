@@ -1,12 +1,11 @@
-/* MemberCard.css */
+/* EventCard.css */
 .event-custom-card {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    height: 530px;
+    height: auto;
     width: 500px;
     /* width: auto; */
-    /* overflow: hidden; */
     transition: transform 0.2s;
     margin-bottom: 40px ;
     margin-top: 10px;
@@ -24,8 +23,8 @@
   }
   
   .event-custom-card .event-img {
-    width: 490px;
-    height: 420px;
+    width: 500px;
+    height: auto;
 
   }
   
@@ -38,28 +37,28 @@
     display: block;
   }
   
-  h3 {
-    font-size: 1.2rem;
+  .event-custom-card h3 {
+    font-size: 2rem;
     margin: 0;
   }
   
-  p {
-    font-size: 1rem;
+  .event-custom-card p {
+    font-size: 1.5rem;
     color: #777;
     margin: 0;
   }
   
-  .social-icons {
+  .event-custom-card .social-icons {
     margin-top: 20px;
   }
   
-  .social-icons a {
+  .event-custom-card .social-icons a {
     text-decoration: none;
     color: #333;
     margin: 0 10px;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   
-  .social-icons a:hover {
+  .event-custom-card .social-icons a:hover {
     color: #0077b5;
   }  

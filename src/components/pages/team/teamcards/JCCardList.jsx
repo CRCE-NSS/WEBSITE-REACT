@@ -6,9 +6,7 @@ const cardData = [
         name: "Shreya Joshi",
         designation: "Event Co-ordinator",
         imageSrc: "/images/teammembers/team-members-2023-24/shreya_joshi.jpg",
-        linkedinLink: "Shreya Joshi - Fr Conceicao Rodrigues College of Engineering Band Stand Bandra (West) Mumbai 400 050 - Maharashtra, India | LinkedIn",
         instagramLink: "https://instagram.com/shreya_2_3_1?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
-        //githubLink: "https://github.com/johndoe"
     },
     {
         name: "Andronicus Lall",
@@ -23,7 +21,6 @@ const cardData = [
         imageSrc: "/images/teammembers/team-members-2023-24/ronak.jpg",
         linkedinLink: "https://www.linkedin.com/in/ronak-raut-817487254/",
         instagramLink: "https://www.instagram.com/ronak__raut__2004/",
-        //githubLink: "https://github.com/johndoe"
     },
     {
         name: "Mansi Chache",
@@ -38,7 +35,6 @@ const cardData = [
         imageSrc: "/images/teammembers/team-members-2023-24/armaan.jpg",
         linkedinLink: "https://www.linkedin.com/in/armaan-shaikh-704a19260",
         instagramLink: "https://instagram.com/armaan_2411?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-        //githubLink: "https://github.com/johndoe"
     },
     {
         name: "Pearl Dmonte",
@@ -51,8 +47,6 @@ const cardData = [
         designation: "Junior Webmaster",
         imageSrc: "/images/teammembers/team-members-2023-24/shreya_ghorpade.jpg",
         linkedinLink: "https://www.linkedin.com/in/shreya-g-a697b8272/",
-        // instagramLink: "https://www.instagram.com/johndoe",
-        // githubLink: "https://github.com/johndoe"
     },
     {
         name: "Saket Pokale",
@@ -74,7 +68,6 @@ const cardData = [
         imageSrc: "/images/teammembers/team-members-2023-24/niraj.jpg",
         linkedinLink: "https://www.linkedin.com/in/niraj-nagpurkar-b09415284",
         instagramLink: "https://instagram.com/niraj_2302?igshid=NTc4MTIwNjQ2YQ==",
-        //githubLink: "https://github.com/johndoe"
     },
     // Add more card data as needed
 ];

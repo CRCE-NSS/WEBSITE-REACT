@@ -16,7 +16,7 @@ const EventCard = ({ name, date, imageSrc, instagramLink, reportLink }) => {
         )}
         {reportLink && (
           <a href={reportLink} target="_blank" rel="noopener noreferrer">
-            <i>&#128462;</i>
+            <i className='fa fa-file-pdf'></i>
           </a> 
         )}
       </div>
