@@ -6,7 +6,7 @@ const cardData = [
         name: "Shreya Joshi",
         designation: "Event Co-ordinator",
         imageSrc: "/images/teammembers/team-members-2023-24/shreya_joshi.jpg",
-        linkedinLink: "www.linkedin.com/in/shreya-joshi-74b79a289",
+        linkedinLink: "https://www.linkedin.com/in/shreya-joshi-74b79a289",
         instagramLink: "https://instagram.com/shreya_2_3_1?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
     },
     {
