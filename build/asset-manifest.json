@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.48e4b3e7.js",
+    "main.js": "/static/js/main.965b4655.js",
     "static/media/tarang.jpg": "/static/media/tarang.852398664eaef5bd2086.jpg",
     "static/media/treeplclg.jpg": "/static/media/treeplclg.f3e288b663310fffce5f.jpg",
     "static/media/bandrafairclg.jpg": "/static/media/bandrafairclg.57ff2d8f3d9a8fd6ad82.jpg",
@@ -13,9 +13,9 @@
     "static/media/mangroveclg.jpg": "/static/media/mangroveclg.2e9c6843e0e98c79b18d.jpg",
     "static/media/CleanAirclg.jpg": "/static/media/CleanAirclg.3514b5fdc1c912fde3f0.jpg",
     "index.html": "/index.html",
-    "main.48e4b3e7.js.map": "/static/js/main.48e4b3e7.js.map"
+    "main.965b4655.js.map": "/static/js/main.965b4655.js.map"
   },
   "entrypoints": [
-    "static/js/main.48e4b3e7.js"
+    "static/js/main.965b4655.js"
   ]
 }

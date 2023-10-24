@@ -9,8 +9,8 @@ function Home() {
       {/* <video autoplay="" loop muted width="98%">
         <source src="\NSS-CRCE2.mp4" type="video/mp4"/>
       </video> */}
-      <img src="\Banner 2023-29.svg" alt="banner-gif"  width="97%"></img>
-      {/* <img src="\images\banner\Banner website.svg" alt="banner-gif"  width="97%"></img> */}
+      {/* <img src="\Banner 2023-29.svg" alt="banner-gif"  width="97%"></img> */}
+      <img src="\images\banner\Banner website.svg" alt="banner-gif"  width="97%"></img>
       
     </div>
       <div className='about-us'>
