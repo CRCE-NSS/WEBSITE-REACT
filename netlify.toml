@@ -1,4 +1,0 @@
-[build]
-  base = "build"
-  publish = "build"
-  command = "node app.js"
