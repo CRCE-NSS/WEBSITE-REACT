@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
 
 :root {
-    --blue: rgb(81, 59, 171);
+    /* --blue: rgb(81, 59, 171); */
     --black: black;
     --light-color: #666;
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0.1);
@@ -23,7 +23,7 @@
 
 html {
     /* font-size: 62.5%; */
-    overflow-x:hidden;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
     height: 100%;
@@ -147,6 +147,22 @@ header .nss-title {
     }
 }
 
+@media (max-width:450px) {
+
+
+    .header .crce-logo img {
+        margin-right: 30px;
+    }
+
+    .nss-title h1 {
+        font-size: 20px;
+        display: none;
+        margin-right: 30px;
+    }
+
+
+}
+
 /* Media query for screens with a minimum width of 721px (for laptops and larger screens) */
 @media only screen and (min-width: 721px) {
     .header .nss-logo img {
@@ -182,6 +198,7 @@ header .nss-title {
     }
 }
 
+
 #title {
     font-size: 50px;
     color: blue;
@@ -190,21 +207,25 @@ header .nss-title {
     margin-top: 30px;
 }
 
+
 @media only screen and (max-width: 720px) {
     #title {
         font-size: 30px;
     }
 }
 
+
 ul {
     list-style: none;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 10px;
 }
 
 ul li {
     display: inline;
     margin-right: 20px;
+    color: blue;
+    font-size: 20px;
 }
 
 /* Style for the dropdown button */
@@ -269,11 +290,114 @@ ul li {
     display: block;
 }
 
+#check {
+    display: none;
+}
+
+.header .icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    color: blue;
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3rem 5%;
+
+    }
+}
+
+/*MMenu icon css*/
+@media (max-width: 870px) {
+    .header .icon {
+        display: inline-flex;
+    }
+
+    #check:checked~.icon #menu-icon {
+        display: none;
+    }
+
+    .icon #close-icon {
+        display: none;
+    }
+
+    #check:checked~.icon #close-icon {
+        display: block;
+    }
 
 
+    ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: lightblue;
+        list-style: none;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    #check:checked~ul {
+        height: 17.7rem;
+    }
 
 
+    ul li {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+    }
 
+    #check:checked~ul li {
+        transform: translateY(0);
+
+    }
+}
+
+
+/*Home page*/
+.banner-gif img {
+    border-radius: 15px;
+    margin-top: 10px;
+
+}
+
+.Home h1 {
+    text-align: center;
+    color: blue;
+    font-family: 'Allerta', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.Home p {
+    text-align: center;
+    color: #201C1B;
+    text-align: justify;
+    padding: 0 70px 0 70px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.about-us {
+    margin-top: 40px;
+}
+
+.prin {
+    margin-top: 40px;
+}
+
+
+/*Volunteer data*/
 .form {
     padding: 10px;
 }
@@ -355,6 +479,7 @@ tr:hover {
     color: dodgerblue;
 }
 
+
 .footer {
     background: white;
     margin-top: 50px;
@@ -369,10 +494,17 @@ tr:hover {
     padding-top: 20px;
 }
 
+
+.frLogo {
+    margin-top: 30px;
+
+}
+
 .footer .box-container .box h3 {
     font-size: 1.5rem;
     color: blue;
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     justify-content: left;
 }
 
@@ -437,7 +569,11 @@ tr:hover {
 
 .inline {
     display: inline-flex;
-    margin-right: auto;
+    /* margin-right: auto; */
+}
+
+.nssLogo {
+    margin-right: 90px;
 }
 
 .inline .nss-logo {
@@ -449,7 +585,8 @@ tr:hover {
     /* Adjust the scale factor as needed for the desired zoom level */
     transition: transform 0.2s;
     /* Add a smooth transition effect */
-    margin-right: 100px;
+    /* margin-right: 20px; */
+    /* padding-left: 60px; */
 }
 
 .inline .nss-logo-h3 {
@@ -457,6 +594,8 @@ tr:hover {
     font-size: large;
     line-height: 0.9;
     text-align: left;
+    margin-right: 20px;
+    margin-left: 70px;
 }
 
 .inline .father-logo {
@@ -493,7 +632,7 @@ tr:hover {
 }
 
 .footer-end {
-    padding-top: 50vh;
+    padding-top: 20vh;
     background-color: lightblue;
 }
 
@@ -509,13 +648,13 @@ tr:hover {
 }
 
 /* Style for the copyright notice */
-.copyright-and-designers{
+.copyright-and-designers {
     padding: 10px;
     background-color: rgb(53, 190, 235);
     justify-content: center;
 }
 
-.copyright{
+.copyright {
     font-size: 20px;
     /* Adjust the font size as needed */
     color: white;
@@ -543,12 +682,131 @@ tr:hover {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width:590px) and (max-width: 720px) {
+    .inline .nss-logo {
+        margin-left: 60px;
+
+    }
+
+    .inline .nss-logo-h3 {
+        margin-left: 20px;
+        padding-left: 50px;
+
+    }
+}
+
+@media (min-width:320px) and (max-width: 590px) {
+    .box-container {
+        width: fit-content;
+    }
+
     .inline .nss-logo {
         margin-left: 60px;
     }
 
     .inline .nss-logo-h3 {
-        margin-left: 20px;
+        font-size: 1rem;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+
+}
+
+/*Carousel CSS*/
+
+.carousel {
+    /* border: 1px solid black; */
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+    /* border: 1px solid black; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+    /* background-color: #fff; */
+}
+
+.carousel-item-text {
+    /* border: 1px solid black; */
+    display: flex;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: justify;
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+    color: #617d98;
+}
+
+.carousel-img {
+    width: 700px;
+    padding: 0 20px 0 20px;
+}
+
+/* final stage */
+
+.carousel-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicator-buttons {
+    border: none;
+    cursor: pointer;
+}
+
+.indicators>button {
+    margin: 5px;
+    background: none;
+}
+
+.indicator-symbol {
+    color: #26343f;
+}
+
+.indicator-symbol-active {
+    color: blue
+}
+
+@media (min-width:320px) and (max-width: 880px) {
+
+    /* .carousel-item-text{
+        display: none;
+    } */
+    .carousel-img {
+        width: 400px;
+    }
+
+    .carousel-item-text {
+        max-width: min-content;
+        word-wrap: break-word;
     }
 }

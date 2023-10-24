@@ -67,3 +67,15 @@
 .card-content .social-icons a:hover {
   color: #0077b5;
 }
+
+@media (max-width: 600px){
+  .custom-card{
+    width: 100%; /* Full width for the card */
+    margin-right: 0; /* Remove the right margin */
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  }
+

@@ -8,7 +8,7 @@ const cardData = [
     date: "1st August 2023",
     imageSrc: "/images/events-2023-24/Orient23.jpg",
     instagramLink: "https://www.instagram.com/p/CvhoKb6t5gS/",
-    reportLink: "/Report-PDF/Orientation.pdf"
+    reportLink: "/Report-PDF/Orientation_.pdf"
   },
   {
     name: "Tarang Aasha Ki",
@@ -46,7 +46,7 @@ const cardData = [
 
 const AugustEventList = () => {
   return (
-    <div className="card-list">
+    <div className="card-list dynamic-grid">
       {cardData.map((card, index) => (
         <EventCard key={index} {...card} />
       ))}

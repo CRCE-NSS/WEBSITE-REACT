@@ -8,14 +8,14 @@ import Vol_Data from './components/pages/volunteer/Vol_Data';
 import Events_2023_24 from './components/pages/events/Events_2023_24';
 import Team_2023_24 from './components/pages/team/Team_2023_24';
 import WebCardList from './components/pages/team/teamcards/WebCardList';
-
+import Carousel from './components/Carousel';
 
 function App() {
   return (
     <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/vol_data" element={<Vol_Data/>} />
           <Route path="/events_2023_24" element={<Events_2023_24/>} />
           <Route path="/team_2023_24" element={<Team_2023_24/>} />

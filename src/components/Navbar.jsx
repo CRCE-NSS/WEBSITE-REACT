@@ -15,7 +15,7 @@ function Navbar() {
   };
 
   return (
-    <header className="header">
+    <header className="header" id='header'>
       {/* NSS logo */}
       <a className="nss-logo" href="https://nsscrce.org/">
         <img src="/images/logos/nss-logo.svg" alt="NSS Logo" />
@@ -28,14 +28,21 @@ function Navbar() {
         <img src="/images/logos/crce-logo.svg" alt="CRCE Logo" />
       </a>
       {/* Page title */}
-      <div className="nss-title">
-        <a href="https://nsscrce.org/"><h1>NSS CRCE</h1></a>
+      <div className="nss-title animate__animated animate__heartBeat animate__slower animate__repeat-2">
+        <a href="#"><h1>NSS CRCE</h1></a>  
+        {/* removed site link */}
       </div>
 
+      <input type='checkbox' id='check'/>
+      <label for="check" className="icon" >
+        <i className='fa fa-bars' id="menu-icon"></i>
+        <i className='fa fa-close' id='close-icon'></i>
+      </label>  
+
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/vol_data">Vol.Data</Link></li>
-        <li className="dropdown">
+        <li ><Link to="/" style={{ color: 'blue' }}>Home</Link></li>
+        <li ><Link to="/vol_data" style={{ color: 'blue' }}>Vol.Data</Link></li>
+        <li  className="dropdown">
           <div className="dropdown-button" onClick={toggleTeamsDropdown}>
             <button className={`dropbtn${isTeamsDropdownVisible ? ' active' : ''}`}>
               Teams ▼ {/* Inverted triangle icon */}
@@ -61,7 +68,10 @@ function Navbar() {
         </li>
         {/* Add more navigation links */}
       </ul>
+      
+      
     </header>
+    
   );
 }
 

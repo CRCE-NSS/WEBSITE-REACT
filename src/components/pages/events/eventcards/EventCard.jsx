@@ -2,7 +2,7 @@ import React from 'react';
 
 const EventCard = ({ name, date, imageSrc, instagramLink, reportLink }) => {
   return (
-    <div className="event-custom-card">
+    <div className="event-custom-card animate__animated animate__backInUp animate__slower">
       <img src={imageSrc} alt={name} className="event-img"/>
       <div className="card-info">
         <h3>{name}</h3>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const MemberCard = ({ name, designation, imageSrc, linkedinLink, instagramLink, githubLink }) => {
   return (
-    <div className="custom-card">
+    <div className="custom-card animate__animated animate__backInUp animate__slower">
       <div className="card-content">
         <img src={imageSrc} alt={name} className="card-image" />
         <div className="hover-content">

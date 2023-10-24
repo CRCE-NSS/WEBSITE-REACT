@@ -7,12 +7,12 @@ function Footer() {
         <section className="footer">
             <div className="box-container">
                 <div className="box" id='vendor'>
-                    <div className="inline">
+                    <div className="inline nssLogo">
                         <img className="nss-logo" alt="NSS Logo" src="/images/logos/nss-logo.svg" />
                         <h3 className="nss-logo-h3">National Service Scheme</h3>
                     </div>
 
-                    <div className="inline">
+                    <div className="inline frLogo">
                         <img className="father-logo" alt="Father Logo" src="/images/logos/father-logo.svg" />
                         <img className="crce-logo" alt="CRCE Logo" src="/images/logos/crce-logo.svg" />
                         <h3 className="crce-logo-h3">
@@ -81,7 +81,7 @@ function Footer() {
             <div className="footer-end">
                 <div className="copyright-and-designers">
                     <h4 className='copyright'>Copyright © 2023 NSS-CRCE. DESIGN & DEVELOPMENT BY <a className='designers' href='/web_card_list'>NSS-CRCE WEB TEAM</a></h4>
-                    <p id="last-updated">Last Updated: 7 Oct 2023</p>
+                    <p id="last-updated">Last Updated: 24 Oct 2023</p>
                 </div>
 
             </div>

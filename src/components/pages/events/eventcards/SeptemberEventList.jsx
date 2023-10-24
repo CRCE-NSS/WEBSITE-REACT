@@ -16,7 +16,7 @@ const cardData = [
     date: "10th September 2023",
     imageSrc: "/images/events-2023-24/MDACSXNSSMarathon23.jpg",
     instagramLink: "https://www.instagram.com/p/CxEMmMGI_1M/",
-    reportLink: "/Report-PDF/Marathon.pdf"
+    reportLink: "/Report-PDF/MarathonReport.pdf"
   },
   {
     name: "FSAI Training Session",
@@ -28,7 +28,7 @@ const cardData = [
   {
     name: "Bandra Fair Volunteering",
     date: "12th-15th September 2023",
-    imageSrc: "/images/events-2023-24/Bandra Fair 23.jpg",
+    imageSrc: "/images/events-2023-24/Bandra-Fair-23.jpg",
     instagramLink: "https://www.instagram.com/p/CxfUP-CNy9F/",
     reportLink: "/Report-PDF/BandraFair_compressed.pdf"
   },
@@ -65,7 +65,7 @@ const cardData = [
 
 const SeptemberEventList = () => {
   return (
-    <div className="card-list">
+    <div className="card-list dynamic-grid">
       {cardData.map((card, index) => (
         <EventCard key={index} {...card} />
       ))}
