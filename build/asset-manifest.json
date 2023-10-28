@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.965b4655.js",
+    "main.js": "/static/js/main.cf8a46be.js",
     "static/media/tarang.jpg": "/static/media/tarang.852398664eaef5bd2086.jpg",
-    "static/media/treeplclg.jpg": "/static/media/treeplclg.f3e288b663310fffce5f.jpg",
+    "static/media/Foodfestclg.jpg": "/static/media/Foodfestclg.ba278a17ddcbcac8c9e5.jpg",
+    "static/media/masterchefclg23.jpg": "/static/media/masterchefclg23.411b19c7181b8038c454.jpg",
     "static/media/bandrafairclg.jpg": "/static/media/bandrafairclg.57ff2d8f3d9a8fd6ad82.jpg",
-    "static/media/marathonclg2.jpg": "/static/media/marathonclg2.0a475ea7f7756144fe7f.jpg",
     "static/media/fsaiclg.jpg": "/static/media/fsaiclg.52c61684016d1beea602.jpg",
-    "static/media/blooddonclg.jpg": "/static/media/blooddonclg.023f8cfde40e04be2910.jpg",
-    "static/media/swacchtaclg.jpg": "/static/media/swacchtaclg.7d1ba0426eb0a01ea3b9.jpg",
-    "static/media/Peacedayclg.jpg": "/static/media/Peacedayclg.9674bf8df53c71e83920.jpg",
     "static/media/indclg.jpg": "/static/media/indclg.9da906ae79e5b81ebd53.jpg",
-    "static/media/mangroveclg.jpg": "/static/media/mangroveclg.2e9c6843e0e98c79b18d.jpg",
-    "static/media/CleanAirclg.jpg": "/static/media/CleanAirclg.3514b5fdc1c912fde3f0.jpg",
     "index.html": "/index.html",
-    "main.965b4655.js.map": "/static/js/main.965b4655.js.map"
+    "main.cf8a46be.js.map": "/static/js/main.cf8a46be.js.map"
   },
   "entrypoints": [
-    "static/js/main.965b4655.js"
+    "static/js/main.cf8a46be.js"
   ]
 }

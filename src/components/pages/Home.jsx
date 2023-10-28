@@ -16,13 +16,13 @@ function Home() {
       <div className='about-us'>
         <h1>ABOUT US</h1>
         <p>
-              The National Service Scheme (NSS) has been enthusiastically conductin activities to help people from the past 50 years. It was launched on Gandhiji’s centenary year to continue
+              The National Service Scheme(NSS) has been enthusiastically conducting activities to help people from the past 50 years. It was launched on Gandhiji's centenary year to continue
               his ideas of community service among the youth of our nation. NSS is a student association of the youth studying in university. We National Service Scheme Unit of Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai. With
               our team of 100 volunteers carry out our social responsibility by organizing and attending various event like Beach cleanups, Tree plantations, Crowd management, Awareness rallies and many more. NSS-CRCE has
               adopted a village for the period of 5 years at Tandulwadi, Saphale, Maharashtra.
         </p>  
       </div>
-      {/* <img src='/images/events-2023-24/Orient23.jpg'></img> */}
+      
       <hr></hr>
       <div className='prin'>
         <h1>FROM THE PRINCIPAL'S DESK</h1>
@@ -40,7 +40,9 @@ function Home() {
                 involved and work for socially relevant causes. Their 'You' before 'Me' attitude makes us proud that
                 they hold the vision of our founding Fathers high.
         </p>
+        <h2>- Dr. Surendra Singh Rathod</h2>
       </div>
+      <div className='flagship-text'><h1>Flagship Events</h1></div>
       <Carousel/>
       
     </div>

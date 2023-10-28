@@ -41,7 +41,7 @@ function Vol_Data() {
       <div>
         {sortedCategories.map(category => (
           <div key={category}>
-            <h2>{category}</h2>
+            <h2 className='event-category'>{category}</h2>
             <table border="1">
               <thead>
                 <tr>

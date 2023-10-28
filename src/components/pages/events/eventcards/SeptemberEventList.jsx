@@ -46,20 +46,7 @@ const cardData = [
     instagramLink: "https://www.instagram.com/p/Cxqdc5kNsJB/",
     reportLink: "/Report-PDF/World PeaceDayReport.pdf"
   },
-  {
-    name: "Swacchta Hi Seva Campaign",
-    date: "1st October 2023",
-    imageSrc: "/images/events-2023-24/SwacchtaHiSeva.jpg",
-    instagramLink: "https://www.instagram.com/p/Cx-C-bdoNua/",
-    //reportLink: "/Report-PDF/.pdf"
-  },
-  {
-    name: "Animal Welfare Day Webinar",
-    date: "1st October 2023",
-    imageSrc: "/images/events-2023-24/AnimalWelfareDay.jpg",
-    instagramLink: "https://www.instagram.com/p/Cxqdc5kNsJB/",
-    //reportLink: "/Report-PDF/.pdf"
-  },
+  
   // Add more card data as needed
 ];
 

@@ -68,8 +68,8 @@ body {
 
 .header .father-logo img {
     /* border: 1px solid black; */
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     /* Add some space to the left (adjust the value as needed) */
     transform: scale(2.5);
     /* Adjust the scale factor as needed for the desired zoom level */
@@ -82,8 +82,8 @@ body {
 
 .header .crce-logo img {
     /* border: 1px solid black; */
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     /* Add some space to the left (adjust the value as needed) */
     transform: scale(3);
     /* Adjust the scale factor as needed for the desired zoom level */
@@ -151,12 +151,12 @@ header .nss-title {
 
 
     .header .crce-logo img {
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     .nss-title h1 {
         font-size: 20px;
-        display: none;
+        /* display: none; */
         margin-right: 30px;
     }
 
@@ -246,9 +246,10 @@ ul li {
     /* Remove button border */
     cursor: pointer;
     /* Change cursor to pointer on hover */
-    font-size: 17px;
+    font-size: 20px;
 
 }
+
 
 /* Style for the dropdown content (hidden by default) */
 .dropdown-content {
@@ -310,7 +311,7 @@ ul li {
     }
 }
 
-/*MMenu icon css*/
+/*Menu icon css*/
 @media (max-width: 870px) {
     .header .icon {
         display: inline-flex;
@@ -340,6 +341,7 @@ ul li {
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         overflow: hidden;
         transition: .3s ease;
+        z-index: 1;
     }
 
     #check:checked~ul {
@@ -359,6 +361,23 @@ ul li {
     #check:checked~ul li {
         transform: translateY(0);
 
+    }
+
+    .dropdown {
+        position: relative;
+        /* margin: 10px; */
+        display: block;
+      }
+      
+          
+    .dropdown-content {
+        
+        top: 100%; /* Position below the label */
+        
+        right: 0;
+        line-height: 0.1;
+        display: block;
+        max-height: 200px;
     }
 }
 
@@ -380,10 +399,11 @@ ul li {
 }
 
 .Home p {
-    text-align: center;
-    color: #201C1B;
+   
     text-align: justify;
-    padding: 0 70px 0 70px;
+    color: #201C1B;
+   
+    padding: 0 50px 0 50px;
     font-size: 1.25rem;
     font-weight: 300;
 }
@@ -396,6 +416,19 @@ ul li {
     margin-top: 40px;
 }
 
+.prin h2{
+    color: blue;
+    font-family: 'Allerta', sans-serif;
+    text-align: right;
+    font-weight: normal;
+    margin-right: 60px;
+}
+
+.flagship-text h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+    margin-top: 30px;
+}
 
 /*Volunteer data*/
 .form {
@@ -442,12 +475,20 @@ input[type="text"] {
     color: dodgerblue;
 }
 
+.event-category{
+    padding-top: 30px;
+    color: blue;
+}
+
 table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
     justify-content: center;
-    box-shadow: var(--box-shadow);
+    align-items: center;
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 5px 10px 5px #888888;
+    padding-bottom: 50px;
 }
 
 td,
@@ -796,11 +837,17 @@ tr:hover {
     color: blue
 }
 
-@media (min-width:320px) and (max-width: 880px) {
+@media (min-width: 620px) and (max-width: 880px) {
 
     /* .carousel-item-text{
         display: none;
     } */
+    .carousel{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+
     .carousel-img {
         width: 400px;
     }
@@ -808,5 +855,39 @@ tr:hover {
     .carousel-item-text {
         max-width: min-content;
         word-wrap: break-word;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 620px){
+    .carousel{
+        width: 100%;
+    }
+  
+    .carousel-item{
+        /* width: ; */
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+      
+    }
+    .carousel-img{
+       width: 300px;
+       position: absolute;
+    }
+    
+    .carousel-item-text{
+        /* max-width: min-content;*/
+        word-wrap: break-word; 
+        font-size: 1.2rem;
+        position: relative;
+        top: 130px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .carousel-buttons{
+        justify-content: center;
     }
 }

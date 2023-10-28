@@ -3,13 +3,13 @@
     /* border: 3px solid black; */
     box-shadow: 0 4px 6px rgba(0, 0, 0.2, 0.5);
     border-radius: 8px;
-    height: auto;
+    /* height: auto; */
     width: 500px;
     /* width: auto; */
     transition: transform 0.2s;
     margin-bottom: 40px ;
     margin-top: 10px;
-  }
+  } 
   
   .event-custom-card:hover {
     transform: scale(1);
@@ -23,20 +23,21 @@
   }
   
   .event-custom-card .event-img {
-    width: 500px;
+    width: 100%;
+    border-radius: 10px;
     height: auto;
-
+    object-fit: cover;
   }
   
-  .event-custom-card .hover-content {
-    display: none;
+  .event-custom-card .card-info {
+    display: block;
     text-align: center;
   }
   
-  .event-custom-card:hover .hover-content {
+  /* .event-custom-card:hover .card-info{
     display: block;
   }
-  
+   */
   .event-custom-card h3 {
     font-size: 2rem;
     margin: 0;
@@ -62,3 +63,24 @@
   .event-custom-card .social-icons a:hover {
     color: #0077b5;
   }  
+
+  @media (max-width: 1000px){
+    .event-custom-card{
+      width: 100%; /* Full width for the card */
+      margin-right: 0; /* Remove the right margin */
+    }
+    .event-card-content {
+      display: flex;
+      flex-direction: column;
+    }
+}
+  
+@media (max-width: 500px){
+  .card-info h3{
+    font-size: 1rem;
+  }
+
+  .card-info p{
+    font-size: .5rem;
+  }
+}
