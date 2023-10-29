@@ -2,15 +2,28 @@
 import React from "react";
 <link rel="stylesheet" href="../../public/style.css" />;
 
-function LastUpdated() {
-  const lastUpdatedDate = new Date();
-  const formattedDate = `${lastUpdatedDate.getDate()} ${lastUpdatedDate.toLocaleString(
-    "default",
-    { month: "short" }
-  )} ${lastUpdatedDate.getFullYear()}`;
+import { useEffect, useState } from 'react';
 
-  return <p id="last-updated">Last Updated: {formattedDate}</p>;
+function LastUpdated() {
+  const [lastUpdated, setLastUpdated] = useState(null);
+
+  useEffect(() => {
+    // Replace 'owner' and 'repo' with your GitHub username and repository name.
+    fetch('https://api.github.com/repos/CRCE-NSS/WEBSITE-REACT')
+      .then((response) => response.json())
+      .then((data) => {
+        const lastUpdatedDate = new Date(data.pushed_at);
+        const formattedDate = `${lastUpdatedDate.getDate()} ${lastUpdatedDate.toLocaleString(
+          'default',
+          { month: 'short' }
+        )} ${lastUpdatedDate.getFullYear()}`;
+        setLastUpdated(formattedDate);
+      });
+  }, []);
+
+  return <p id="last-updated">Last Updated: {lastUpdated}</p>;
 }
+
 
 function Footer() {
   return (
