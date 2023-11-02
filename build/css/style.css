@@ -414,6 +414,7 @@ ul li {
 
 .prin {
     margin-top: 40px;
+    
 }
 
 .prin h2{
@@ -422,7 +423,46 @@ ul li {
     text-align: right;
     font-weight: normal;
     margin-right: 60px;
+    margin-top: 20px;
 }
+
+.prin .prin-img-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.prin .prin-img-p .card{
+    width: max-content;
+    
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media (max-width:1000px){
+    .prin .prin-img-p .card img{
+        width:100%;
+        object-fit: cover;
+    }
+ 
+    .prin .prin-img-p .card{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .prin .prin-img-p{
+        display: block;
+        align-items: center;
+    }
+}
+
 
 .flagship-text h1{
     font-family: 'Brush Script MT', cursive;
@@ -675,6 +715,7 @@ tr:hover {
 .footer-end {
     padding-top: 20vh;
     background-color: lightblue;
+    width: 100%;
 }
 
 /* Style for the names of the designers */
@@ -751,6 +792,14 @@ tr:hover {
         padding-left: 50px;
     }
 
+    
+}
+
+@media (min-width:320px) and (max-width:420px){
+     .footer-end{
+        
+        width: 415px;
+     }
 }
 
 /*Carousel CSS*/

@@ -40,14 +40,14 @@ const cardData = [
       {
         name: "MasterChef 2023",
         date: "16th October 2023",
-        imageSrc: "/images/events-2023-24/MasterChef23.svg",
+        imageSrc: "/images/events-2023-24/Masterchef23.svg",
         // instagramLink: "",
         //reportLink: "/Report-PDF/.pdf"
       },
       {
         name: "FoodFest 2023",
         date: "18th October 2023",
-        imageSrc: "/images/events-2023-24/FoodFest23.svg",
+        imageSrc: "/images/events-2023-24/Foodfest23.svg",
         // instagramLink: "",
         //reportLink: "/Report-PDF/.pdf"
       },
