@@ -8,7 +8,7 @@ import Vol_Data from './components/pages/volunteer/Vol_Data';
 import Events_2023_24 from './components/pages/events/Events_2023_24';
 import Team_2023_24 from './components/pages/team/Team_2023_24';
 import WebCardList from './components/pages/team/teamcards/WebCardList';
-import Carousel from './components/Carousel';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path="/team_2023_24" element={<Team_2023_24/>} />
           <Route path="/web_card_list" element={<WebCardList/>} />
         </Routes>
+        <ScrollToTopButton /> {/* Add this component to reset scroll position */}
         <Footer />
     </Router>
   );

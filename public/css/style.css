@@ -940,3 +940,17 @@ tr:hover {
         justify-content: center;
     }
 }
+
+/* Add this CSS to your stylesheet */
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
