@@ -33,21 +33,21 @@ const cardData = [
       {
         name: "Bandra Fair Appreciation",
         date: "6th October 2023",
-        imageSrc: "/images/events-2023-24/Bandra-Fair-felicitation-post.svg",
+        imageSrc: "/images/events-2023-24/BandraFairAppr.svg",
         // instagramLink: "",
         //reportLink: "/Report-PDF/.pdf"
       },
       {
         name: "Nirmalya Mukhti",
         date: "13th October 2023",
-        imageSrc: "/images/events-2023-24/NirmalyaMukhti.svg"
+        imageSrc: "/images/events-2023-24/Nirmalyapost.svg"
         // instagramLink: "",
         //reportLink: "/Report-PDF/.pdf"
       },
       {
         name: "MasterChef 2023",
         date: "16th October 2023",
-        imageSrc: "/images/events-2023-24/Masterchef23.svg",
+        imageSrc: "/images/events-2023-24/Masterchefposter.svg",
         // instagramLink: "",
         //reportLink: "/Report-PDF/.pdf"
       },
