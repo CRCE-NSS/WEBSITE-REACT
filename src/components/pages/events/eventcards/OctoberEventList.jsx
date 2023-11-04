@@ -24,6 +24,13 @@ const cardData = [
         //reportLink: "/Report-PDF/.pdf"
       },
       {
+        name: "World Teacher's Day",
+        date: "5th October 2023",
+        imageSrc: "/images/events-2023-24/TeachersDayPost.svg",
+        // instagramLink: "#",
+        // reportLink: "#"
+      },
+      {
         name: "Bandra Fair Appreciation",
         date: "6th October 2023",
         imageSrc: "/images/events-2023-24/Bandra-Fair-felicitation-post.svg",
