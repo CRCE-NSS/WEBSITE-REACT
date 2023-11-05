@@ -25,7 +25,7 @@ const cardData = [
     },
     {
         name: "Kush Ambekar",
-        designation: "PR & Social Media Head",
+        designation: "PR Head",
         imageSrc: "/images/teammembers/team-members-2023-24/Kush.jpg",
         linkedinLink: "https://www.linkedin.com/in/kush-ambekar-11a08a230/",
         instagramLink: "https://instagram.com/_._._.kush._._._?igshid=MzRlODBiNWFlZA==",
