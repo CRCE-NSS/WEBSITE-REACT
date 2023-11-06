@@ -840,11 +840,14 @@ tr:hover {
     padding: 0 20px 0 20px;
     white-space: normal;
     color: #617d98;
+    position: relative;
+        top: 270px;
 }
 
 .carousel-img {
     width: 700px;
     padding: 0 20px 0 20px;
+    position: absolute;
 }
 
 /* final stage */
@@ -858,14 +861,14 @@ tr:hover {
     background: none;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .indicators {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .indicator-buttons {
@@ -899,12 +902,14 @@ tr:hover {
 
     .carousel-img {
         width: 400px;
+        
     }
 
     .carousel-item-text {
         max-width: min-content;
         word-wrap: break-word;
         font-size: 1.5rem;
+        
     }
 
 }
