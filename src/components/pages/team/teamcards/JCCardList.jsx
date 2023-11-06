@@ -49,6 +49,7 @@ const cardData = [
         designation: "Junior Webmaster",
         imageSrc: "/images/teammembers/team-members-2023-24/shreya_ghorpade.jpg",
         linkedinLink: "https://www.linkedin.com/in/shreya-g-a697b8272/",
+        githubLink: "https://github.com/shreya64684"
     },
     // {
     //     name: "Saket Pokale",
