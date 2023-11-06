@@ -14,7 +14,7 @@ const cardData = [
   {
     name: "MDACS X NSS Red Run Marathon",
     date: "10th September 2023",
-    imageSrc: "/images/events-2023-24/MDACSXNSSMarathon23.jpg",
+    imageSrc: "/images/events-2023-24/MDACSXNSSMarathon23.svg",
     instagramLink: "https://www.instagram.com/p/CxEMmMGI_1M/",
     reportLink: "/Report-PDF/MarathonReport.pdf"
   },
@@ -35,14 +35,14 @@ const cardData = [
   {
     name: "NSS CRCE X FSAI Ganesh Mandal Audit",
     date: "17th-19th September 2023",
-    imageSrc: "/images/events-2023-24/FSAI2023.jpg",
+    imageSrc: "/images/events-2023-24/FSAI2023.svg",
     instagramLink: "https://www.instagram.com/p/CxkYLl9oIQZ/",
     reportLink: "/Report-PDF/fsai day1 new_merged.pdf"
   },
   {
     name: "World Peace Day Webinar",
     date: "21st September 2023",
-    imageSrc: "/images/events-2023-24/WorldPeaceDay23.jpg",
+    imageSrc: "/images/events-2023-24/WorldPeaceDay23.svg",
     instagramLink: "https://www.instagram.com/p/Cxqdc5kNsJB/",
     reportLink: "/Report-PDF/World PeaceDayReport.pdf"
   },

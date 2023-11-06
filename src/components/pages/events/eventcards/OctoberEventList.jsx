@@ -54,7 +54,7 @@ const cardData = [
       {
         name: "FoodFest 2023",
         date: "18th October 2023",
-        imageSrc: "/images/events-2023-24/Foodfest23.svg",
+        imageSrc: "/images/events-2023-24/Foodfest23.jpg",
         // instagramLink: "",
         //reportLink: "/Report-PDF/.pdf"
       },

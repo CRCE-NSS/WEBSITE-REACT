@@ -117,7 +117,11 @@ function Footer() {
       <div className="footer-end">
         <div className="copyright-and-designers">
           <h4 className="copyright">
-            Copyright © 2023 NSS-CRCE. DESIGN & DEVELOPMENT BY{" "}
+            Copyright © 2023 <span> </span>
+            <a className="nss" href="/">
+            NSS-CRCE
+            </a>
+            . DESIGN & DEVELOPMENT BY{" "}
             <a className="designers" href="/web_card_list">
               NSS-CRCE WEB TEAM
             </a>

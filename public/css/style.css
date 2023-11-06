@@ -367,13 +367,14 @@ ul li {
         position: relative;
         /* margin: 10px; */
         display: block;
-      }
-      
-          
+    }
+
+
     .dropdown-content {
-        
-        top: 100%; /* Position below the label */
-        
+
+        top: 100%;
+        /* Position below the label */
+
         right: 0;
         line-height: 0.1;
         display: block;
@@ -399,10 +400,10 @@ ul li {
 }
 
 .Home p {
-   
+
     text-align: justify;
     color: #201C1B;
-   
+
     padding: 0 50px 0 50px;
     font-size: 1.25rem;
     font-weight: 300;
@@ -414,10 +415,10 @@ ul li {
 
 .prin {
     margin-top: 40px;
-    
+
 }
 
-.prin h2{
+.prin h2 {
     color: blue;
     font-family: 'Allerta', sans-serif;
     text-align: right;
@@ -426,29 +427,30 @@ ul li {
     margin-top: 20px;
 }
 
-.prin .prin-img-p{
+.prin .prin-img-p {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
+
+
 }
-.prin .prin-img-p .card{
+
+.prin .prin-img-p .card {
     width: max-content;
-    
+
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 50px;
     margin-right: 50px;
 }
 
-@media (max-width:1000px){
-    .prin .prin-img-p .card img{
-        width:100%;
+@media (max-width:1000px) {
+    .prin .prin-img-p .card img {
+        width: 100%;
         /* object-fit: cover; */
     }
- 
-    .prin .prin-img-p .card{
+
+    .prin .prin-img-p .card {
         width: 90%;
         align-items: center;
         text-align: center;
@@ -457,14 +459,15 @@ ul li {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .prin .prin-img-p{
+
+    .prin .prin-img-p {
         display: block;
         align-items: center;
     }
 }
 
 
-.flagship-text h1{
+.flagship-text h1 {
     font-family: 'Brush Script MT', cursive;
     font-size: 60px;
     margin-top: 30px;
@@ -515,7 +518,7 @@ input[type="text"] {
     color: dodgerblue;
 }
 
-.event-category{
+.event-category {
     padding-top: 30px;
     color: blue;
 }
@@ -746,7 +749,8 @@ tr:hover {
     font-weight: bold;
 }
 
-.designers {
+.designers,
+.nss {
     font-size: 20px;
     /* Adjust the font size as needed */
     color: white;
@@ -756,8 +760,9 @@ tr:hover {
     font-weight: bolder;
 }
 
+.nss:hover,
 .designers:hover {
-    color: dodgerblue;
+    color: rgb(8, 60, 112);
 }
 
 #last-updated {
@@ -792,14 +797,14 @@ tr:hover {
         padding-left: 50px;
     }
 
-    
+
 }
 
-@media (min-width:320px) and (max-width:420px){
-     .footer-end{
-        
+@media (min-width:320px) and (max-width:420px) {
+    .footer-end {
+
         width: 415px;
-     }
+    }
 }
 
 /*Carousel CSS*/
@@ -841,7 +846,7 @@ tr:hover {
     white-space: normal;
     color: #617d98;
     position: relative;
-        top: 270px;
+    top: 270px;
 }
 
 .carousel-img {
@@ -894,7 +899,7 @@ tr:hover {
     /* .carousel-item-text{
         display: none;
     } */
-    .carousel{
+    .carousel {
         width: 80%;
         align-items: center;
         justify-content: center;
@@ -902,38 +907,39 @@ tr:hover {
 
     .carousel-img {
         width: 400px;
-        
+
     }
 
     .carousel-item-text {
         max-width: min-content;
         word-wrap: break-word;
         font-size: 1.5rem;
-        
+
     }
 
 }
 
-@media (max-width: 620px){
-    .carousel{
+@media (max-width: 620px) {
+    .carousel {
         width: 100%;
     }
-  
-    .carousel-item{
+
+    .carousel-item {
         /* width: ; */
         align-items: center;
         justify-content: center;
         height: 300px;
-      
+
     }
-    .carousel-img{
-       width: 300px;
-       position: absolute;
+
+    .carousel-img {
+        width: 300px;
+        position: absolute;
     }
-    
-    .carousel-item-text{
+
+    .carousel-item-text {
         /* max-width: min-content;*/
-        word-wrap: break-word; 
+        word-wrap: break-word;
         font-size: 1.2rem;
         position: relative;
         top: 130px;
@@ -941,7 +947,7 @@ tr:hover {
         word-break: break-word;
     }
 
-    .carousel-buttons{
+    .carousel-buttons {
         justify-content: center;
     }
 }
@@ -957,5 +963,4 @@ tr:hover {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-  }
-  
+}
