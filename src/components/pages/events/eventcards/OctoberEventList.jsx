@@ -48,7 +48,7 @@ const cardData = [
         name: "MasterChef 2023",
         date: "16th October 2023",
         imageSrc: "/images/events-2023-24/Masterchefposter.svg",
-        // instagramLink: "",
+        instagramLink: "https://www.instagram.com/p/CzdOYsyyBY1/",
         reportLink: "/Report-PDF/MasterChef.pdf"
       },
       {

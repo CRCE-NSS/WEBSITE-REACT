@@ -14,6 +14,17 @@ function Navbar() {
     setEventsDropdownVisible(!isEventsDropdownVisible);
   };
 
+  const handleLinkClick = (url) => {
+    // Close all dropdowns
+    toggleTeamsDropdown();
+    toggleEventsDropdown(); // Add more toggles if needed for other dropdowns
+  
+    // Navigate to the specified URL
+    window.location.href = url;
+  };
+
+  
+
   return (
     <header className="header" id='header'>
       {/* NSS logo */}
@@ -39,9 +50,10 @@ function Navbar() {
         <i className='fa fa-close' id='close-icon'></i>
       </label>  
 
-      <ul>
-        <li ><Link to="/" style={{ color: 'blue' }}>Home</Link></li>
-        <li ><Link to="/vol_data" style={{ color: 'blue' }}>Vol.Data</Link></li>
+      <ul id="nav-list">
+        
+        <li ><Link to="/" style={{ color: 'blue' }} onClick={() => handleLinkClick('/')} >Home</Link></li>
+        <li ><Link to="/vol_data" style={{ color: 'blue' }} onClick={() => handleLinkClick('/vol_data')} >Vol.Data</Link></li>
         <li  className="dropdown">
           <div className="dropdown-button" onClick={toggleTeamsDropdown}>
             <button className={`dropbtn${isTeamsDropdownVisible ? ' active' : ''}`}>
@@ -50,7 +62,7 @@ function Navbar() {
           </div>
           {isTeamsDropdownVisible && (
             <div className="dropdown-content">
-              <Link to="/team_2023_24">Team 2023-24</Link>
+              <Link to="/team_2023_24" onClick={() => handleLinkClick('/team_2023_24')}>Team 2023-24</Link>
             </div>
           )}
         </li>
@@ -62,10 +74,11 @@ function Navbar() {
           </div>
           {isEventsDropdownVisible && (
             <div className="dropdown-content">
-              <Link to="/events_2023_24">Events 2023-24</Link>
+              <Link to="/events_2023_24" onClick={() => handleLinkClick('/events_2023_24')}>Events 2023-24</Link>
             </div>
           )}
         </li>
+        
         {/* Add more navigation links */}
       </ul>
       

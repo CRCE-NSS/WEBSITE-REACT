@@ -38,12 +38,16 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    margin-top: 100px;
 }
 
 .header {
     border: 1px solid black;
     display: flex;
-    position: relative;
+    /* position: relative; */
+    position: fixed;
+    width: 100%; 
+    top: 0; 
     align-items: center;
     padding: 0.7rem;
     justify-content: space-between;
@@ -51,6 +55,8 @@ body {
     box-shadow: var(--box-shadow);
     border-radius: 5rem;
     margin-bottom: 10px;
+    z-index: 100;
+    
 }
 
 /* Apply a zoom effect to the images by default */
@@ -113,6 +119,7 @@ header .nss-title {
 
 #menu-btn {
     display: none;
+    
 }
 
 .header .navbar.active {
@@ -251,6 +258,7 @@ ul li {
 }
 
 
+
 /* Style for the dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
@@ -313,6 +321,9 @@ ul li {
 
 /*Menu icon css*/
 @media (max-width: 870px) {
+    /* .header{
+        height: 90px;
+    } */
     .header .icon {
         display: inline-flex;
     }
@@ -332,36 +343,53 @@ ul li {
 
     ul {
         position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 0;
+        /* top: 100%; */
+        top: 100px;
+        /* left: 0; */
+        right: 0;
+        /* width: 100%;
+        height: 0;  */
         background: lightblue;
         list-style: none;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         overflow: hidden;
-        transition: .3s ease;
+        transition: .2s ease;
         z-index: 1;
+        width: 0;
+        height: 100vh; 
+        /* left: 30%; */
+        margin-right: 0;
     }
 
+    
     #check:checked~ul {
-        height: 17.7rem;
+        /* height: 17.7rem; */
+        /* right: 80%; */
+        width: 70%;
     }
 
 
     ul li {
         display: block;
-        font-size: 1.1rem;
-        margin: 1.5rem 0;
+        font-size: 1.3rem;
+        /* margin: 1.7rem 0; */
+        margin: 2.5rem 0;
         text-align: center;
-        transform: translateY(-50px);
+        /* transform: translateY(-50px); */
+        
         transition: .3s ease;
+        text-align: center;
+        position: relative;
+        /* top: 80px; */
+        top: 20px;
+        right: 0;
     }
 
     #check:checked~ul li {
         transform: translateY(0);
 
     }
+
 
     .dropdown {
         position: relative;
@@ -387,6 +415,7 @@ ul li {
 .banner-gif img {
     border-radius: 15px;
     margin-top: 10px;
+    z-index: -1;
 
 }
 
