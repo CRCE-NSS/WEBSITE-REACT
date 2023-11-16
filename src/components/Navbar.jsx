@@ -1,10 +1,13 @@
 // src/components/Navbar.jsx
-import React, { useState } from 'react';
+import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
   const [isTeamsDropdownVisible, setTeamsDropdownVisible] = useState(false);
   const [isEventsDropdownVisible, setEventsDropdownVisible] = useState(false);
+  // const [isMenuOpen, setMenuOpen] = useState(false);
+  // const navigate = useNavigate();
 
   const toggleTeamsDropdown = () => {
     setTeamsDropdownVisible(!isTeamsDropdownVisible);
@@ -22,6 +25,54 @@ function Navbar() {
     // Navigate to the specified URL
     window.location.href = url;
   };
+
+  // const MyComponent = () => {
+  //   const navigate = useNavigate();
+  
+  //   const handleClick = (url) => {
+  //     // Close all dropdowns
+  //     toggleTeamsDropdown();
+  //     toggleEventsDropdown(); // Add more toggles if needed for other dropdowns
+    
+  //     // Navigate to the specified URL without a full page reload
+  //     navigate(url);
+  //   };
+  // }
+  
+  // const handleClick = () => {
+  //   document.getElementById("nav-list").style.width="0";
+  // }
+
+  // const handleToggleMenu = () => {
+  //   setMenuOpen(!isMenuOpen);
+  // };
+
+  // const handleLinkClick = (url) => {
+  //   // Close all dropdowns and the menu
+  //   setTeamsDropdownVisible(false);
+  //   setEventsDropdownVisible(false);
+  //   setMenuOpen(false);
+
+  //   // Navigate to the specified URL without a full page reload
+  //   navigate(url);
+  //};
+
+  // useEffect(() => {
+  //   const closeMenuOnOutsideClick = (event) => {
+  //     const sidebar = document.getElementById('nav-list');
+  //     const menuIcon = document.getElementById('check');
+
+  //     if (sidebar && menuIcon && !sidebar.contains(event.target) && event.target !== menuIcon) {
+  //       setMenuOpen(false);
+  //     }
+  //   };
+
+  //   document.addEventListener('click', closeMenuOnOutsideClick);
+
+  //   return () => {
+  //     document.removeEventListener('click', closeMenuOnOutsideClick);
+  //   };
+  // }, []);
 
   
 
@@ -44,13 +95,13 @@ function Navbar() {
         {/* removed site link */}
       </div>
 
-      <input type='checkbox' id='check'/>
+      <input type='checkbox' id='check' /*checked={isMenuOpen} onClick={toggleTeamsDropdown}*//>
       <label for="check" className="icon" >
         <i className='fa fa-bars' id="menu-icon"></i>
         <i className='fa fa-close' id='close-icon'></i>
       </label>  
 
-      <ul id="nav-list">
+      <ul id="nav-list" /*className={isMenuOpen ? 'open' : ''}*/>
         
         <li ><Link to="/" style={{ color: 'blue' }} onClick={() => handleLinkClick('/')} >Home</Link></li>
         <li ><Link to="/vol_data" style={{ color: 'blue' }} onClick={() => handleLinkClick('/vol_data')} >Vol.Data</Link></li>
@@ -78,6 +129,7 @@ function Navbar() {
             </div>
           )}
         </li>
+        
         
         {/* Add more navigation links */}
       </ul>
