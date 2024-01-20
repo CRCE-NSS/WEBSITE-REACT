@@ -129,7 +129,7 @@ function Footer() {
                 <PhoneIcon />
               </ListItemIcon>
               <ListItemText style={{ color: "white" }}
-                primary="+91 99204 14062" secondary="Ratan Singh(President)" secondaryTypographyProps={
+                primary="+91 99204 14062" secondary="Ratan Singh (President)" secondaryTypographyProps={
                   { color: "white", fontSize: "15px" }
                 }>
               </ListItemText>
@@ -139,7 +139,7 @@ function Footer() {
                 <PhoneIcon />
               </ListItemIcon>
               <ListItemText style={{ color: "white" }}
-                primary="+91 93266 65726" secondary="Krishna Soni(Vice President)" secondaryTypographyProps={
+                primary="+91 93266 65726" secondary="Krishna Soni (Vice President)" secondaryTypographyProps={
                   { color: "white", fontSize: "15px" }
                 }>
               </ListItemText>
@@ -149,7 +149,7 @@ function Footer() {
                 <PhoneIcon />
               </ListItemIcon>
               <ListItemText style={{ color: "white" }} classname="link"
-                primary="+91 99693 54409" secondary="Aarush Wasnik(Senior Web-Master)" secondaryTypographyProps={
+                primary="+91 99693 54409" secondary="Aarush Wasnik (Senior Web-Master)" secondaryTypographyProps={
                   { color: "white", fontSize: "15px" }
                 }>
               </ListItemText>

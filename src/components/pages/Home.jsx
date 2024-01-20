@@ -1,21 +1,19 @@
 // src/pages/Home.jsx
 import React from "react";
 import { Carousel } from "../Carousel";
+import { CampCarousel } from "../CampCarousel";
 
 function Home() {
   return (
     <div className="Home">
-      <div class="banner-gif animate__animated animate__backInDown animate__slower">
-        {/* <video autoplay="" loop muted width="98%">
-        <source src="\NSS-CRCE2.mp4" type="video/mp4"/>
-      </video> */}
-        {/* <img src="\Banner 2023-29.svg" alt="banner-gif"  width="97%"></img> */}
+      {/* <div class="banner-gif animate__animated animate__backInDown animate__slower">
         <img
           src="\images\banner\Banner website.svg"
           alt="banner-gif"
           width="97%"
         ></img>
-      </div>
+      </div> */}
+      <CampCarousel />
       <div className="about-us">
         <h1>ABOUT US</h1>
         <p>
