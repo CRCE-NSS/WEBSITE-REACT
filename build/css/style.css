@@ -20,23 +20,20 @@
     transition: all .2s linear;
 }
 
-html {
-    /* font-size: 62.5%; */
+body {
+    /* border: 2px solid black; */
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
     height: 100%;
-}
-
-body {
-    /* border: 2px solid black; */
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
     background-color: white;
     text-align: center;
     min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     margin-top: 100px;
 }
 
@@ -440,7 +437,7 @@ tr:hover {
 
 .nss:hover,
 .designers:hover {
-    color: rgb(8, 60, 112);
+    color: rgb(53, 53, 224);
 }
 
 #last-updated {

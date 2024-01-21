@@ -15,7 +15,7 @@ const cardData = [
     {
         name: "Prof. Gauree Jagushte",
         designation: "Program Officer",
-        imageSrc: "/images/teammembers/team-members-2023-24/po1.jpg",
+        imageSrc: "/images/teammembers/team-members-2023-24/gauree.jpg",
     },
     {
         name: "Prof. Gajendra Singh",
