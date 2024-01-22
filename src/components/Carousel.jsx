@@ -18,31 +18,7 @@ export const Carousel = () => {
 
       imageURL: require("../carou_img/indclg.jpg"),
     },
-    // {
-    //   title: "Tree Plantation",
-
-    //   imageURL: require("../carou_img/treeplclg.jpg"),
-    // },
-    // {
-    //   title: "Blood Donation",
-
-    //   imageURL: require("../carou_img/blooddonclg.jpg"),
-    // },
-    // {
-    //   title: "Mission Mangroves Webinar",
-
-    //   imageURL: require("../carou_img/mangroveclg.jpg"),
-    // },
-    // {
-    //   title: "International Day of Clean Air for Blue Skies Webinar",
-
-    //   imageURL: require("../carou_img/CleanAirclg.jpg"),
-    // },
-    // {
-    //   title: "MDACS X NSS Red Run Marathon",
-
-    //   imageURL: require("../carou_img/marathonclg2.jpg"),
-    // },
+    
     {
       title: "September: Bandra Fair 2023",
 
@@ -53,16 +29,6 @@ export const Carousel = () => {
 
       imageURL: require("../carou_img/fsaiclg.jpg"),
     },
-    // {
-    //   title: "World Peace Day Webinar",
-
-    //   imageURL: require("../carou_img/Peacedayclg.jpg"),
-    // },
-    // {
-    //   title: "Swacchta Hi Seva Campaign",
-
-    //   imageURL: require("../carou_img/swacchtaclg.jpg"),
-    // },
     {
       title: "October: MasterChef 2023",
       imageURL: require("../carou_img/masterchefclg23.jpg"),
@@ -71,6 +37,15 @@ export const Carousel = () => {
       title: "October: FoodFest 2023",
       imageURL: require("../carou_img/Foodfestclg.jpg"),
     },
+    {
+      title: "December : Human Rights Day (Poster Making)",
+      imageURL: require("../carou_img/posterclg.jpg"),
+    },
+    {
+      title: "January : POCSO Seminar",
+      imageURL: require("../carou_img/pocsoclg.jpg"),
+    },
+
   ];
 
   const updateIndex = (newIndex) => {
@@ -153,6 +128,11 @@ export const Carousel = () => {
           justifyContent: "space-between",
           alignItems: "center",
           marginTop: "10px",
+          '@media (max-width: 535px)': {
+                        
+            
+          },
+          
         }}
       >
         <IconButton

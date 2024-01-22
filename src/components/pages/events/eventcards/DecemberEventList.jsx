@@ -14,8 +14,23 @@ const cardData = [
       date: "10th December 2023",
       imageSrc: "/images/events-2023-24/Human rights post.svg",
       instagramLink: "https://www.instagram.com/p/C07O9-Qrf1-/",
-      reportLink: ""
-  },
+      reportLink: "/Report-PDF/Human Rights Day(Poster).pdf"
+    },
+    {
+      name: "National Conservation Day Power Plant Visit",
+      date: "14th December 2023",
+      imageSrc: "/images/events-2023-24/Energy conservation post.svg",
+      instagramLink: "https://www.instagram.com/p/C2SzkyILErh/",
+      reportLink: "/Report-PDF/PowerPlantVisit.docx.pdf"
+    },
+    { 
+      name: "Mega Deep Cleaning Programme",
+      date: "31st December 2023",
+      imageSrc: "/images/events-2023-24/Mega Cleaning drive post.svg",
+      instagramLink: "https://www.instagram.com/p/C2Sz-EWLqba/",
+      reportLink: "/Report-PDF/mega deep cleaning.pdf"
+    },
+   
 
 ];
 

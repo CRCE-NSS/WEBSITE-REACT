@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.031a5ea8.js",
+    "main.js": "/static/js/main.717fcb1a.js",
     "static/media/tarang.jpg": "/static/media/tarang.852398664eaef5bd2086.jpg",
+    "static/media/posterclg.jpg": "/static/media/posterclg.3d07e4644e0afe9a3e21.jpg",
     "static/media/Foodfestclg.jpg": "/static/media/Foodfestclg.ba278a17ddcbcac8c9e5.jpg",
     "static/media/masterchefclg23.jpg": "/static/media/masterchefclg23.411b19c7181b8038c454.jpg",
     "static/media/bandrafairclg.jpg": "/static/media/bandrafairclg.57ff2d8f3d9a8fd6ad82.jpg",
     "static/media/fsaiclg.jpg": "/static/media/fsaiclg.52c61684016d1beea602.jpg",
+    "static/media/pocsoclg.jpg": "/static/media/pocsoclg.fa2eee38b52385cf175e.jpg",
     "static/media/indclg.jpg": "/static/media/indclg.9da906ae79e5b81ebd53.jpg",
     "index.html": "/index.html",
-    "main.031a5ea8.js.map": "/static/js/main.031a5ea8.js.map"
+    "main.717fcb1a.js.map": "/static/js/main.717fcb1a.js.map"
   },
   "entrypoints": [
-    "static/js/main.031a5ea8.js"
+    "static/js/main.717fcb1a.js"
   ]
 }

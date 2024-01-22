@@ -79,7 +79,21 @@ function Footer() {
                 {/* National Service Scheme */}
                 NSS CRCE
               </Typography>
+              
             </Stack>
+             <Box>
+                <a href="\team_2023_24">
+                <img
+                  src="\images\banner\Banner website.svg"
+                  alt="banner-gif"
+                  width="90%"
+                  style={{
+                    borderRadius: "10px"
+                  }}
+                ></img>
+                </a>
+
+              </Box>
             {/* <Stack
               direction="row"
               spacing={5}

@@ -33,7 +33,7 @@ const cardData = [
     {
         name: "Armaan Shaikh",
         designation: "Documentation Incharge",
-        imageSrc: "/images/teammembers/team-members-2023-24/armaan.jpg",
+        imageSrc: "/images/teammembers/team-members-2023-24/armaan2.jpg",
         linkedinLink: "https://www.linkedin.com/in/armaan-shaikh-704a19260",
         instagramLink: "https://instagram.com/armaan_2411?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
     },
