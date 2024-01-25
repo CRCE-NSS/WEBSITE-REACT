@@ -54,7 +54,7 @@ function Vol_Data() {
                 {eventsByCategory[category].events.map((event) => (
                   <tr key={event._id}>
                     <td>{event.eventname}</td>
-                    <td>{event.date ? new Date(event.date).toLocaleDateString() : 'No Date Available'}</td>
+                    <td>{event.date ? new Date(event.date).toLocaleDateString('en-GB') : 'No Date Available'}</td>
                     <td>{event.hoursalloted}</td>
                   </tr>
                 ))}
