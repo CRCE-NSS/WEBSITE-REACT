@@ -43,35 +43,38 @@ function Navbar() {
   };
 
   const renderMenu = (label, anchorEl, handleClose, items) => (
-    <>
-      <Button
-        color="inherit"
-        onClick={(event) => handleMenuClick(label.toLowerCase(), event)}
-        aria-controls={`${label.toLowerCase()}-menu`}
-        aria-haspopup="true"
-      >
-        {label}
-        <ExpandMoreIcon />
-      </Button>
-      <Menu
-        id={`${label.toLowerCase()}-menu`}
-        anchorEl={anchorEl}
-        open={Boolean(anchorEl)}
-        onClose={handleClose}
-      >
-        {items.map((item, subIndex) => (
-          <MenuItem
-            key={subIndex}
-            component={NavLink} // Use NavLink directly for menu items
-            to={item.to}
-            onClick={handleLinkClick}
-          >
-            {item.label}
-          </MenuItem>
-        ))}
-      </Menu>
-    </>
-  );
+  <>
+    <Button
+      color="inherit"
+      onClick={(event) => handleMenuClick(label.toLowerCase(), event)}
+      aria-controls={`${label.toLowerCase()}-menu`}
+      aria-haspopup="true"
+    >
+      {label}
+      <ExpandMoreIcon />
+    </Button>
+    <Menu
+      id={`${label.toLowerCase()}-menu`}
+      anchorEl={anchorEl}
+      open={Boolean(anchorEl)}
+      onClose={() => handleClose(label.toLowerCase())}  // Pass the type to handleClose
+    >
+      {items.map((item, subIndex) => (
+        <MenuItem
+          key={subIndex}
+          component={NavLink}
+          to={item.to}
+          onClick={() => {
+            handleLinkClick();
+            handleClose(label.toLowerCase());  // Pass the type to handleClose
+          }}
+        >
+          {item.label}
+        </MenuItem>
+      ))}
+    </Menu>
+  </>
+);
 
   const Logo = ({ index }) => (
     <img

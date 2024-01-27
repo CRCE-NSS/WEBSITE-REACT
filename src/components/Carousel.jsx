@@ -129,8 +129,6 @@ export const Carousel = () => {
           alignItems: "center",
           marginTop: "10px",
           '@media (max-width: 535px)': {
-                        
-            
           },
           
         }}

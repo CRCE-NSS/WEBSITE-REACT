@@ -18,7 +18,7 @@ const cardData = [
     },
     {
         name: "Aarush Wasnik",
-        designation: "Senior Webmaster",
+        designation: "Documentation Head and Senior Webmaster",
         imageSrc: "/images/teammembers/team-members-2023-24/Aarush.jpg",
         linkedinLink: "https://www.linkedin.com/in/aarush-wasnik-016120248/",
         githubLink: "https://github.com/Ark2044"
