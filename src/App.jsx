@@ -16,17 +16,13 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handleLoad = () => {
+    // Simulate a loading delay, replace with your actual loading logic
+    const delay = setTimeout(() => {
       setIsLoading(false);
-    };
+    }, 5000);
 
-    // Attach the event listener to wait for all resources to be loaded
-    window.addEventListener('load', handleLoad);
-
-    // Clean up the event listener to avoid memory leaks
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
+    // Clean up the timeout to avoid memory leaks
+    return () => clearTimeout(delay);
   }, []);
 
   return (
