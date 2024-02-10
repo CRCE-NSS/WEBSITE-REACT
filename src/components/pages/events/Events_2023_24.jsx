@@ -5,6 +5,8 @@ import SeptemberEventList from './eventcards/SeptemberEventList';
 import OctoberEventList from './eventcards/OctoberEventList';
 import DecemberEventList from './eventcards/DecemberEventList';
 import JanuaryEventList from './eventcards/JanuaryEventList';
+import FebruaryEventList from './eventcards/FebruaryEventList';
+
 function Events_2023_24() {
   return (
     <div>
@@ -19,6 +21,8 @@ function Events_2023_24() {
       <DecemberEventList/> 
       <h1>January 2024</h1>
       <JanuaryEventList/>
+      <h1>February 2024</h1>
+      <FebruaryEventList/>
     </div>
   );
 }
