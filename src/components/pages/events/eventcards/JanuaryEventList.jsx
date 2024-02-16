@@ -34,7 +34,7 @@ const cardData = [
     {
       name: "Documentation and Court Awareness Skit",
       date: "29th January 2024",
-      imageSrc: "/images/events-2023-24/DOCUMENTATION_SKIT.jpg",
+      imageSrc: "/images/events-2023-24/skit.png",
       //instagramLink: "",
       reportLink: "/Report-PDF/COURT_AWARENESS_AND_DOCUMENTATION.pdf"
     },
