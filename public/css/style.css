@@ -498,3 +498,8 @@ tr:hover {
     border-radius: 50px;
     cursor: pointer;
 }
+
+.para {
+    margin: 40px !important;
+    font-weight: bolder;
+}

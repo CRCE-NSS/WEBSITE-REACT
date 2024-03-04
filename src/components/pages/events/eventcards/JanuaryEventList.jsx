@@ -28,7 +28,7 @@ const cardData = [
       name: "Republic Day",
       date: "26th January 2024",
       imageSrc: "/images/events-2023-24/RepublicDay.jpg",
-      // instagramLink: "",
+      instagramLink: "https://www.instagram.com/reel/C4DeRbFtRJx/",
       reportLink: "/Report-PDF/REPUBLIC_DAY.pdf"
     },
     {
