@@ -8,7 +8,21 @@ const cardData = [
         imageSrc: "/images/events-2023-24/VeganOutreach.jpg",
         instagramLink: "",
         reportLink: ""
-    }
+    },
+    {
+      name: "Stem Cell Donation Drive",
+      date: "12th February 2024",
+      imageSrc: "/images/events-2023-24/StemCell.jpg",
+      instagramLink: "",
+      reportLink: ""
+    },
+    {
+      name: "Blood Donation Campaign",
+      date: "14th February 2024",
+      imageSrc: "/images/events-2023-24/BloodDonation2.jpg",
+      instagramLink: "",
+      reportLink: ""
+    },
     
 
 

@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { Typography } from '@mui/material';
 
 const apiUrl = "/get-volunteer";
 
 function Vol_Data() {
-  const [srno, setSrno] = useState("");
+  const [srno, setSrno] = useState('');
   const [volunteerData, setVolunteerData] = useState(null);
 
   const handleFormSubmit = async (e) => {
@@ -13,7 +14,7 @@ function Vol_Data() {
       const response = await axios.post(apiUrl, { srno });
       setVolunteerData(response.data);
     } catch (error) {
-      console.error("Error fetching volunteer data:", error);
+      console.error('Error fetching volunteer data:', error);
     }
   };
 
@@ -30,42 +31,41 @@ function Vol_Data() {
       return acc;
     }, {});
 
-    // Sort events by date within each category
-    for (const category in eventsByCategory) {
-      eventsByCategory[category].events.sort(
-        (a, b) => new Date(a.date) - new Date(b.date)
-      );
+    // Sort the categories alphabetically
+    const sortedCategories = Object.keys(eventsByCategory)
+      .filter(category => category !== 'DEDUCTION*')
+      .sort();
+
+    // If 'DEDUCTION' exists, add it to the end
+    if (eventsByCategory['DEDUCTION*']) {
+      sortedCategories.push('DEDUCTION*');
     }
 
-    // Sort the categories alphabetically
-    const sortedCategories = Object.keys(eventsByCategory).sort();
-
+    // const grandTotal = sortedCategories.reduce((total, category) => {
+    //   return total + eventsByCategory[category].totalHours;
+    // }, 0);
     const grandTotal = sortedCategories.reduce((total, category) => {
       return total + eventsByCategory[category].totalHours;
     }, 0);
 
     return (
       <div>
-        {sortedCategories.map((category) => (
+        {sortedCategories.map(category => (
           <div key={category}>
-            <h2 className="event-category">{category}</h2>
+            <h2 className='event-category'>{category}</h2>
             <table border="1">
               <thead>
                 <tr>
                   <th>Event Name</th>
                   <th>Date</th>
-                  <th>Hours Allotted</th>
+                  {category === 'DEDUCTION*' ? <th>Hours Deducted</th> : <th>Hours Allotted</th>}
                 </tr>
               </thead>
               <tbody>
                 {eventsByCategory[category].events.map((event) => (
                   <tr key={event._id}>
                     <td>{event.eventname}</td>
-                    <td>
-                      {event.date
-                        ? new Date(event.date).toLocaleDateString("en-GB")
-                        : "No Date Available"}
-                    </td>
+                    <td>{event.date ? new Date(event.date).toLocaleDateString("en-GB") : 'No Date Available'}</td>
                     <td>{event.hoursalloted}</td>
                   </tr>
                 ))}
@@ -74,12 +74,20 @@ function Vol_Data() {
                   <td>{eventsByCategory[category].totalHours}</td>
                 </tr>
               </tbody>
+
             </table>
+
           </div>
         ))}
         <div>
           <table border="1" style={{ marginTop: "20px" }}>
             <tbody>
+              {/* {volunteerData.volunteerData.deduction !== 0 && (
+                <tr>
+                  <th>Deduction</th>
+                  <td>{volunteerData.volunteerData.deduction}</td>
+                </tr>
+              )} */}
               <tr>
                 <th>Grand Total</th>
                 <td>{grandTotal}</td>
@@ -92,12 +100,10 @@ function Vol_Data() {
   };
 
   return (
-    <div>
+    <div className='vol' style={{ '@media (max-width:800px)': { marginTop: '50px' } }}>
       <h1 id="title">Volunteer Information</h1>
       <form className="form" onSubmit={handleFormSubmit}>
-        <label htmlFor="srno" id="srno">
-          Enter Serial Number:
-        </label>
+        <label htmlFor="srno" id='srno'>Enter Serial Number:</label>
         <input
           type="text"
           id="srno"
@@ -106,9 +112,7 @@ function Vol_Data() {
           value={srno}
           onChange={(e) => setSrno(e.target.value)}
         />
-        <button type="submit" id="btn">
-          Submit
-        </button>
+        <button type="submit" id="btn">Submit</button>
       </form>
 
       {volunteerData && (
@@ -130,18 +134,22 @@ function Vol_Data() {
             </tbody>
           </table>
 
-          {volunteerData.volunteerData.eventsattained &&
-            volunteerData.volunteerData.eventsattained.length > 0 && (
-              <div>
-                {getTablesByEventCategory(
-                  volunteerData.volunteerData.eventsattained
-                )}
-              </div>
-            )}
+          {volunteerData.volunteerData.eventsattained && volunteerData.volunteerData.eventsattained.length > 0 && (
+            <div>
+              {getTablesByEventCategory(volunteerData.volunteerData.eventsattained)}
+            </div>
+          )}
+          
+          <Typography variant="h8" align="center" color="black" paragraph className='para'
+                        sx={{ margin: '20px' }}
+                    >
+                        *If you have any grievances related to volunteering hours, please contact Program Officers.
+                    </Typography>
+          
         </div>
       )}
+      
     </div>
   );
 }
-
 export default Vol_Data;
