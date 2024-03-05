@@ -62,7 +62,9 @@ function Vol_Data() {
                 </tr>
               </thead>
               <tbody>
-                {eventsByCategory[category].events.map((event) => (
+                {eventsByCategory[category].events
+                .sort((a, b) => new Date(a.date) - new Date(b.date))
+                .map((event) => (
                   <tr key={event._id}>
                     <td>{event.eventname}</td>
                     <td>{event.date ? new Date(event.date).toLocaleDateString("en-GB") : 'No Date Available'}</td>
