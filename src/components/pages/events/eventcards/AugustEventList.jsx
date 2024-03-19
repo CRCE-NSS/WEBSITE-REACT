@@ -25,7 +25,7 @@ const cardData = [
     reportLink: "/Report-PDF/August_16_Tree_Plantation.pdf"
   },
   {
-    name: "Blood Donation Camp",
+    name: "Blood Donation Camp 1",
     date: "17th August 2023",
     imageSrc: "/images/events-2023-24/BloodDonationCamp23.jpg",
     instagramLink: "https://www.instagram.com/p/CwPS1BFy7FZ/",

@@ -35,14 +35,14 @@ const cardData = [
       name: "Documentation and Court Awareness Skit",
       date: "29th January 2024",
       imageSrc: "/images/events-2023-24/skit.png",
-      //instagramLink: "",
+      instagramLink: "https://www.instagram.com/reel/C4SDaNDNlC1/",
       reportLink: "/Report-PDF/COURT_AWARENESS_AND_DOCUMENTATION.pdf"
     },
     {
       name: "Tax Awareness Seminar",
       date: "30th January 2024",
       imageSrc: "/images/events-2023-24/TaxAwareness.jpg",
-      //instagramLink: "",
+      instagramLink: "https://www.instagram.com/p/C4SEh8eybQR/",
       reportLink: "/Report-PDF/TAX_AWARENESS.pdf"
     },
 
