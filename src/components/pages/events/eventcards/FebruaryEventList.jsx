@@ -17,7 +17,7 @@ const cardData = [
       reportLink: ""
     },
     {
-      name: "Blood Donation Campaign 2",
+      name: "Blood Donation Camp 2",
       date: "14th February 2024",
       imageSrc: "/images/events-2023-24/BloodDonation2.jpg",
       instagramLink: "https://www.instagram.com/p/C4faUf_SMnY/",
