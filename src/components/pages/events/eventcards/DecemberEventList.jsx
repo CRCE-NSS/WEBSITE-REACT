@@ -21,7 +21,7 @@ const cardData = [
       date: "14th December 2023",
       imageSrc: "/images/events-2023-24/Energy conservation post.svg",
       instagramLink: "https://www.instagram.com/p/C2SzkyILErh/",
-      reportLink: "/Report-PDF/December_14_NATIONAL_CONSERVATION_DAY(PowerPlant Visit).pdf"
+      reportLink: "/Report-PDF/December_14_NATIONAL_CONSERVATION_DAY(Powerplant Visit).pdf"
     },
     { 
       name: "Mega Deep Cleaning Programme",
