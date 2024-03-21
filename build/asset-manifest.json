@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.3b1d4e89.js",
+    "main.js": "/static/js/main.dedd9133.js",
     "static/media/tarang.jpg": "/static/media/tarang.852398664eaef5bd2086.jpg",
     "static/media/posterclg.jpg": "/static/media/posterclg.3d07e4644e0afe9a3e21.jpg",
     "static/media/Foodfestclg.jpg": "/static/media/Foodfestclg.ba278a17ddcbcac8c9e5.jpg",
@@ -10,9 +10,9 @@
     "static/media/pocsoclg.jpg": "/static/media/pocsoclg.fa2eee38b52385cf175e.jpg",
     "static/media/indclg.jpg": "/static/media/indclg.9da906ae79e5b81ebd53.jpg",
     "index.html": "/index.html",
-    "main.3b1d4e89.js.map": "/static/js/main.3b1d4e89.js.map"
+    "main.dedd9133.js.map": "/static/js/main.dedd9133.js.map"
   },
   "entrypoints": [
-    "static/js/main.3b1d4e89.js"
+    "static/js/main.dedd9133.js"
   ]
 }
